@@ -81,7 +81,7 @@ Layout.Padding = UDim.new(0, 3)
 
 
 local function CreateText(Text, Color)
-    local Calc_X = (List.Size.X.Offset - List.ScrollBarThickness)
+    local Calc_X = (List.ScrollBarThickness - List.Size.X.Offset)
 
 
     print(Calc_X)
@@ -113,4 +113,4 @@ local PlatformLabel = CreateText('Platform: '..tostring(UIS:GetPlatform().Name))
 
 
 
---loadstring(game:HttpGet('https://raw.githubusercontent.com/SubnauticaLaserMain/Vxpe-Profile-Info/main/Main.lua', true))()
+--loadstring(game:HttpGet('https://raw.githubusercontent.com/SubnauticaLaserMain/Vxpe-Profile-Info/main/Unbugged.lua', true))()
