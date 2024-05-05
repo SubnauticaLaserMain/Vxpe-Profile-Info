@@ -84,6 +84,7 @@ local function CreateText(Text, Color)
     local Calc_X = (List.Size.X.Offset - List.ScrollBarThickness)
 
 
+    print(Calc_X)
     local TextLabel = Instance.new('TextLabel', List)
     TextLabel.Size = UDim2.new(0, (Calc_X), 0, 20)
     TextLabel.AutomaticSize = Enum.AutomaticSize.Y
@@ -112,3 +113,4 @@ local PlatformLabel = CreateText('Platform: '..tostring(UIS:GetPlatform().Name))
 
 
 
+--loadstring(game:HttpGet('https://raw.githubusercontent.com/SubnauticaLaserMain/Vxpe-Profile-Info/main/Main.lua', true))()
