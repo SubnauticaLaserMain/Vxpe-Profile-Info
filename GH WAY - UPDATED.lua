@@ -81,7 +81,7 @@ Layout.Padding = UDim.new(0, 3)
 
 
 local function CreateText(Text, Color)
-    local Calc_X = (List.Size.X.Offset - 13)
+    local Calc_X = (List.Size.X.Scale - 13)
 
 
     print(Calc_X)
@@ -113,4 +113,4 @@ local PlatformLabel = CreateText('Platform: '..tostring(UIS:GetPlatform().Name))
 
 
 
---loadstring(game:HttpGet('https://raw.githubusercontent.com/SubnauticaLaserMain/Vxpe-Profile-Info/main/Unbugged.lua', true))()
+--loadstring(game:HttpGet('https://raw.githubusercontent.com/SubnauticaLaserMain/Vxpe-Profile-Info/main/GH%20WAY%20-%20UPDATED.lua', true))()
