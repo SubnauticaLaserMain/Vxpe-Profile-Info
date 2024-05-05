@@ -81,7 +81,7 @@ Layout.Padding = UDim.new(0, 3)
 
 
 local function CreateText(Text, Color)
-    local Calc_X = (List.ScrollBarThickness - List.Size.X.Offset)
+    local Calc_X = (List.Size.X.Offset - 13)
 
 
     print(Calc_X)
